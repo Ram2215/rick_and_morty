@@ -1,0 +1,24 @@
+.container {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap; /* ✅ responsive */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .filters input,
+  .filters select {
+    width: 100%;
+  }
+}
