@@ -34,6 +34,7 @@ function Filters({ search, setSearch, setStatus, setGender, setPage, status, gen
           <option value="male">Male</option>
           <option value="female">Female</option>
           <option value="genderless">Genderless</option>
+          <option value="unknown">Unknown</option>
         </select>
       </div>
     </div>

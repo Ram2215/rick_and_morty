@@ -15,13 +15,9 @@ function Card({ char }) {
           {char.status}
         </span>
       </div>
-      <div className="p-5">
-        <h3 className="text-lg font-semibold text-gray-800 mb-1">{char.name}</h3>
-        <p className="text-gray-500 text-sm mb-3 italic">{char.species}</p>
-        <div className="flex flex-col gap-1 text-sm text-gray-600">
-          <span>Gender: {char.gender}</span>
-          <span>Origin: {char.origin.name}</span>
-        </div>
+      <div className="p-5 text-center">
+        <h3 className="text-lg font-semibold text-gray-800 mb-2">{char.name}</h3>
+        <p className="text-gray-600 text-sm">Gender: {char.gender}</p>
       </div>
     </div>
   );
